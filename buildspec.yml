@@ -10,6 +10,8 @@ phases:
       - echo Build completed successfully
       - pwd
       - ls -l
+      - cd target
+      - ls -l
 artifacts:
   files:
     - target/order-service.jar
